@@ -35,7 +35,7 @@
   npm i pandora-express 
   npm install -g parcel-bundler
   ``` 
-  ![Screenshot](/media/pandora-install.png)
+  ![Screenshot](NFT-Lending-and-Borrowing/images/Screenshot 2022-04-26 112234.jpg)
 
   **3.Building the UI**
 
