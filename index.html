@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test NFT Lending</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script type="module" src="main.js"></script>
+
+
+    <div>
+        <input type="text" id="mintNFT" placeholder="Enter URI to mint">
+        <button id="mintBtn">Mint</button>
+    </div>
+    <br>
+    <br>
+    <div>
+    <input type="text" id="nftContractAddress" placeholder="NFT Contract Address">
+    <input type="text" id="nftTokenId" placeholder="NFT Token Id">
+    <button id="approveBtn">Approve</button>
+    </div>
+    <br>
+    <br>
+    <div>
+    <input type="text" id="nftContractAddress1" placeholder="NFT Contract Address">
+    <br>
+    <input type="text" id="nftTokenId1" placeholder="NFT Token Id">
+    <br>
+    <input type="number" id="loanAmount" placeholder="Loan Amount(in wei)">
+    <br>
+    <input type="number" id="interestAmount" placeholder="Interest Amount(in wei)">
+    <br>
+    <input type="text" id="timePeriod" placeholder="Time Period(in days)">
+    <br>
+    <input type="text" id="maxTimePeriod" placeholder="Max Time Period(in days)">
+    <br>
+    <button id="createBtn">Create</button>
+    </div>
+    <br>
+    <br>
+    <div>
+        <input type="number" id="loanId" placeholder="NFT Loan Id">
+         <br>
+        <input type="number" id="loanAmount1" placeholder="Loan Amount(in wei)">
+         <br>
+        <input type="number" id="interestAmount1" placeholder="Interest Amount(in wei)">
+         <br>
+        <button id="acceptBtn">Accept</button>
+    <br>
+    <br>
+    </div>
+    <div>
+        <input type="number" id="loanId2" placeholder="NFT Loan Id">
+         <br>
+        <input type="number" id="loanAmount2" placeholder="Loan Amount(in wei)">
+         <br>
+        <input type="number" id="interestAmount2" placeholder="Interest Amount(in wei)">
+         <br>
+        <button id="endBtn">End Loan</button>
+    <br>
+    <br>
+    </div>
+    <div>
+        <input type="number" id="extendLoanId" placeholder="Extend Loan Id">
+        <br>
+        <button id="extendBtn">Extend</button>
+    </div>
+    <br><br>
+    <div>
+        <input type="number" id="cancelLoanId" placeholder="Cancel Loan Id">
+        <br>
+        <button id="cancelBtn">Cancel</button>
+    </div>
+
+</body>
+</html>
